@@ -215,7 +215,7 @@ platforms:
     name: "MiMoCode"
     preferred: true
     installer:
-      target_dir: .mimicode/skills
+      target_dir: .agents/skills
       global_target_dir: ~/.config/mimocode/skills
       commands_target_dir: .mimicode/commands
 
