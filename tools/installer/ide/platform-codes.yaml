@@ -211,6 +211,14 @@ platforms:
       target_dir: .agents/skills
       global_target_dir: ~/.vibe/skills
 
+  mimocode:
+    name: "MiMoCode"
+    preferred: true
+    installer:
+      target_dir: .mimicode/skills
+      global_target_dir: ~/.config/mimocode/skills
+      commands_target_dir: .mimicode/commands
+
   mux:
     name: "Mux"
     preferred: false
